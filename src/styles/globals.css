@@ -1,0 +1,195 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  color: #ffffff;
+  padding: 0;
+  margin: 0;
+}
+
+.corpoUnico {
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  /*background-color: rgb(17, 17, 17);    */
+  background-image: linear-gradient(to right, #2e2e2e 0%, black 100%);
+  display: flex;
+}
+
+.cabecalho {
+  min-width: 25vw;
+  max-width: 25vw;
+  min-height: 100vh;
+  height: 100%;
+  background-color: rgb(26, 26, 26);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.headerLink {
+  font-size: 2rem;
+}
+
+.headerLinkDiv {
+  margin-top: 1rem;
+}
+
+.headerLinkDiv:hover {
+  color: rgb(182, 182, 182);
+}
+
+.homeConteudo {
+  width: 100%;
+  min-height: 100vh;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.divCentro {
+  display: flex;
+  align-items: center;
+  padding: 50px 20px;
+  max-width: 75%;
+  box-shadow: -10px -10px 10px -5px rgba(212, 212, 212, 0.762),
+    5px 5px 10px black;
+}
+.divCentro:hover {
+  box-shadow: inset -15px -15px 10px -8px rgba(212, 212, 212, 0.575),
+    inset 15px 15px 10px -5px black;
+  cursor: pointer;
+}
+
+.divImagemPerfil {
+  max-width: 18vw;
+  max-height: 18vw;
+  border-radius: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.divImagemPerfil img {
+  width: 100%;
+}
+
+.divImagemInfo {
+  margin: 0 1.5rem;
+  padding: 1.3rem 0;
+}
+
+.divImagemInfo h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  background-image: linear-gradient(180deg, #ffffff 0%, #a6a6a6 100%);
+  -webkit-background-clip: text;
+  color: transparent;
+  margin-bottom: 2rem;
+}
+.divImagemInfo p {
+  font-size: 1.5rem;
+}
+
+/* SOBRE */
+
+.sobreConteudo {
+  width: 100%;
+  height: 100vh;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+}
+
+.sobreConteudo::-webkit-scrollbar {
+  background-color: #2e2e2e;
+  width: 10px;
+}
+.sobreConteudo::-webkit-scrollbar-thumb {
+  background-color: #3e3e3e;
+}
+
+.sSobreMim {
+  padding-bottom: 1rem;
+  display: flex;
+  padding-left: 1rem;
+}
+
+.sExperiencias {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  width: 50%;
+}
+.sExperiencias div {
+  display: flex;
+}
+
+.sColor {
+  /*   background-image: linear-gradient(180deg, #ffffff 0%, #a6a6a6 100%);     */
+  background-image: linear-gradient(180deg, #ffffff 0%, #a6a6a6 100%);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.sColor2 {
+  background-image: linear-gradient(180deg, #ffffff 0%, #a6a6a6 100%);
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 2.5rem;
+  margin: 1rem 0 1.5rem 0;
+}
+
+.sExperiencias h1 {
+  font-size: 1.8rem;
+  margin: 1rem 0 1.5rem 0;
+}
+.sExperiencias h2 {
+  font-size: 1.5rem;
+}
+.sExperiencias p {
+  font-size: 1.5rem;
+  margin: 0.3rem;
+}
+
+/*  SVG  */
+
+.sTecnologias {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.slogoDiv {
+  background-color: rgb(255, 255, 255);
+  width: 250px;
+  height: 250px;
+  margin: 3rem 5rem 0;
+  border-radius: 15px;
+  box-shadow: 10px 10px 15px #626365f1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slogoDiv:hover {
+  cursor: pointer;
+}
+
+.slogoDiv div {
+  width: 70%;
+}
