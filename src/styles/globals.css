@@ -269,7 +269,7 @@ a {
   }
 
   .headerLink {
-    font-size: 1.6rem;
+    font-size: min(1.6rem, 5vw);
   }
 
   .headerLinkDiv {
@@ -307,6 +307,7 @@ a {
     width: 80%;
     max-width: 85%;
     height: 80%;
+    max-width: 95%;
   }
 
   .divCentro h1 {
@@ -320,5 +321,17 @@ a {
   .divImagemPerfil {
     max-width: 35vw;
     max-height: 35vw;
+  }
+
+  .sExperiencias h1 {
+    font-size: min(1.8rem, 5vw);
+    margin: 1rem 0 0.5rem 0;
+  }
+  .sExperiencias h2 {
+    font-size: min(1.5rem, 6vw);
+  }
+  .sExperiencias p {
+    font-size: min(1.5rem, 4vw);
+    margin: 0.3rem;
   }
 }

@@ -13,6 +13,7 @@ export default function HomeConteudo() {
             Amo aprender e ensinar novas tecnologias. <br />
             Gosto de conhecer pessoas com conhecimentos diferentes dos meus.
           </p>
+          <div className="svgHome"></div>
         </div>
       </div>
     </section>
