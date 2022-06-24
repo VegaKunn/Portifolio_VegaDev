@@ -61,8 +61,8 @@ export default function SobreConteudo() {
             <br />
             Trabalho com freelance e isso me obrigou a conhecer todas as nuances
             de um projeto, regras de negocios e afins.
-            <br /> Conheço as dificuldades de cada area de desenvovlimento de um
-            projeto, mas sei tambem como resolver cada um desses problemas.
+            <br /> Minha especialidade é resolver problemas, sejá em que área eu
+            atue.
           </p>
         </div>
       </div>

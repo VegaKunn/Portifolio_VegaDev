@@ -6,16 +6,8 @@
   background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
 }
 
-.bga1:hover {
-  background-color: #00ec00;
-}
-
 .bga2 {
   background: linear-gradient(to top, #1e4a24, #00ec00);
-}
-
-.bga2:hover {
-  background-color: #00ec00;
 }
 
 .bga3 {
@@ -100,6 +92,7 @@
 /* TESTE CUBO   background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%); */
 
 .bg0:hover {
+  transform: scale(1.03);
   background-image: linear-gradient(to top, #4481eb 0%, #04befe 100%);
   box-shadow: 10px 10px 15px #04befe;
 }
@@ -110,6 +103,7 @@
 }
 
 .bg1:hover {
+  transform: scale(1.03);
   background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
   box-shadow: 10px 10px 15px #f83600;
 }
@@ -120,6 +114,7 @@
 }
 
 .bg2:hover {
+  transform: scale(1.03);
   background: linear-gradient(to top, #1e4a24, #00ec00);
   box-shadow: 10px 10px 15px #00ec00;
 }
@@ -130,6 +125,7 @@
 }
 
 .bg3:hover {
+  transform: scale(1.03);
   background-image: linear-gradient(-20deg, #b721ff 0%, #21d4fd 100%);
   box-shadow: 10px 10px 15px #b721ff;
 }
@@ -139,6 +135,7 @@
     inset 15px 15px 15px -5px rgba(0, 0, 0, 0.68);
 }
 .bg4:hover {
+  transform: scale(1.03);
   background-image: linear-gradient(
     -225deg,
     #77ffd2 0%,
@@ -153,6 +150,7 @@
     inset 15px 15px 15px -5px rgba(0, 0, 0, 0.678);
 }
 .bg5:hover {
+  transform: scale(1.03);
   background-image: linear-gradient(to top, #00c6fb 0%, #005bea 100%);
   box-shadow: 10px 10px 15px #005bea;
 }
@@ -162,6 +160,7 @@
     inset 15px 15px 15px -5px rgba(0, 0, 0, 0.693);
 }
 .bg6:hover {
+  transform: scale(1.03);
   background-image: linear-gradient(to top, #b3ffab 0%, #12fff7 100%);
   box-shadow: 10px 10px 15px #b3ffab;
 }
@@ -171,6 +170,7 @@
     inset 15px 15px 15px -5px rgba(0, 0, 0, 0.719);
 }
 .bg7:hover {
+  transform: scale(1.03);
   background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
   box-shadow: 10px 10px 15px #9a2e19f1;
 }
@@ -240,7 +240,6 @@
   transform-style: preserve-3d;
   transform: rotateX(80deg);
   filter: blur(50px);
-
   top: 20px;
   animation: animate2 10s linear infinite;
 }

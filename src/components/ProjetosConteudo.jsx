@@ -10,6 +10,24 @@ export default function ProjetosConteudo() {
       <div className="divTeste">
         <img className="imgProjetos" src="./img/projetos/sity.png" alt="" />{" "}
       </div>
+      <div className="divTeste">
+        <img className="imgProjetos" src="./img/projetos/sity.png" alt="" />{" "}
+      </div>
+      <div className="divTeste">
+        <img className="imgProjetos" src="./img/projetos/sity.png" alt="" />{" "}
+      </div>
+      <div className="divTeste">
+        <img className="imgProjetos" src="./img/projetos/sity.png" alt="" />{" "}
+      </div>
+      <div className="divTeste">
+        <img className="imgProjetos" src="./img/projetos/sity.png" alt="" />{" "}
+      </div>
+      <div className="divTeste">
+        <img className="imgProjetos" src="./img/projetos/sity.png" alt="" />{" "}
+      </div>
+      <div className="divTeste">
+        <img className="imgProjetos" src="./img/projetos/sity.png" alt="" />{" "}
+      </div>
     </section>
   );
 }

@@ -3,6 +3,9 @@ import Link from "next/link";
 export default function Header() {
   return (
     <header className="cabecalho">
+      <div className="headerDivLogo">
+        <h1>{"<VegaDev/>"}</h1>
+      </div>
       <nav>
         <Link href="/">
           <a className="headerLink">

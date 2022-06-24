@@ -1,41 +1,56 @@
 .projetosConteudo {
   width: 100%;
+  height: 100vh;
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  padding-top: 4rem;
+  padding-top: 2rem;
+  overflow-y: scroll;
+}
+
+.projetosConteudo::-webkit-scrollbar {
+  background-color: #2e2e2e;
+  width: 15px;
+}
+.projetosConteudo::-webkit-scrollbar-thumb {
+  background-color: #4d4d4d;
 }
 
 .divTeste {
-  width: 30vw;
-  height: 16vw;
+  width: 33vw;
+  height: 18vw;
   border-radius: 10px;
+  margin-top: 2.5rem;
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   z-index: 0;
+  transition: transform 0.4s;
 }
 .divTeste::after {
   content: " ";
-  width: 105%;
-  height: 105%;
+  width: 101%;
+  height: 101%;
   position: absolute;
   border-radius: 10px;
-  background: linear-gradient(#bebc89, #9f6969, #9594bb);
+  /*  background: linear-gradient(#bebc89, #9f6969, #9594bb); */
+  background: linear-gradient(45deg, #0000ff, #00ff00, #ffff00, #ff0000);
   z-index: -1;
-  animation: fundo 3s linear infinite;
+  animation: fundo 15s linear infinite;
 }
 .divTeste:hover {
   cursor: pointer;
+  transform: scale(1.06);
 }
 
 @keyframes fundo {
   0% {
-    filter: hue-rotate(0deg) blur(10px);
+    filter: hue-rotate(0deg) blur(3px);
   }
+
   100% {
-    filter: hue-rotate(360deg) blur(10px);
+    filter: hue-rotate(360deg) blur(3px);
   }
 }
 
@@ -43,4 +58,19 @@
   border-radius: 10px;
   width: 100%;
   height: 100%;
+}
+
+@media (max-width: 850px) {
+  .divTeste {
+    width: 60vw;
+    height: 37vw;
+    border-radius: 10px;
+    margin-top: 2.5rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+    transition: transform 0.4s;
+  }
 }
