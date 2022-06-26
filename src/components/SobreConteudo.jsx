@@ -53,6 +53,7 @@ export default function SobreConteudo() {
             <p className="sColor"> Inglês - Basico</p>
           </div>
         </div>
+
         <div className="sExperiencias ">
           <h1 className="sColor">Sobre Mim</h1>
           <p>

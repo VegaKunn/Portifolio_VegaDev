@@ -96,6 +96,31 @@ a {
 .divImagemPerfil img {
   width: 100%;
 }
+.divCentro2 {
+  width: 100%;
+  max-width: 75%;
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  padding: 50px 20px;
+  box-shadow: -10px -10px 10px -5px rgba(212, 212, 212, 0.762),
+    5px 5px 10px black;
+}
+.divCentro2 h1 {
+  font-size: max(2rem, 2.5vw);
+  background-image: linear-gradient(180deg, #ffffff 0%, #a6a6a6 100%);
+  -webkit-background-clip: text;
+  color: transparent;
+
+  cursor: pointer;
+}
+
+.divCentro2:hover {
+  box-shadow: inset -15px -15px 10px -8px rgba(212, 212, 212, 0.575),
+    inset 15px 15px 10px -5px black;
+}
 
 .divImagemInfo {
   margin: 0 1.5rem;
@@ -105,7 +130,7 @@ a {
 .divImagemInfo h1 {
   display: flex;
   justify-content: center;
-  font-size: min(2.5rem, 3vw);
+  font-size: min(2.5rem, 2vw);
   background-image: linear-gradient(180deg, #ffffff 0%, #a6a6a6 100%);
   -webkit-background-clip: text;
   color: transparent;
@@ -180,6 +205,52 @@ a {
 }
 
 /*  SVG  */
+
+.svgHome {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-around;
+  width: 90%;
+}
+
+.svgHome div {
+  display: flex;
+  align-items: center;
+}
+.svgHome h2 {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  font-size: min(2rem, 3.5vw);
+  cursor: pointer;
+  transition: border 0.75s;
+}
+
+.svgHomeYoutube h2:hover {
+  color: #e70f0f;
+  border-bottom: #e70f0f solid 1px;
+}
+.svgHomeLinkedin h2:hover {
+  color: #12b9c5;
+  border-bottom: #12b9c5 solid 1px;
+}
+.svgHomeGithub h2:hover {
+  color: #c4c4c4ce;
+  border-bottom: #c4c4c4ce solid 1px;
+}
+
+.bakada {
+  fill: rgb(205, 0, 0);
+  color: #202020;
+  margin: 0;
+  padding-inline-start: 0;
+  height: 80%;
+  transition: 0.5s;
+}
+
+.bakada:hover {
+  fill: #202020;
+}
 
 .sTecnologias {
   display: flex;
