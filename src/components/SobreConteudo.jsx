@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Link from "next/link";
 import {
   nextSvg,
   nodeSvg,
@@ -51,6 +52,17 @@ export default function SobreConteudo() {
           <div>
             <p>idioma:</p>
             <p className="sColor"> Inglês - Basico</p>
+          </div>
+          <div>
+            <p>Curriculo:</p>
+            <Link
+              href="https://vegaservidorpessoal.herokuapp.com/curriculo"
+              target="_blank"
+            >
+              <a target="_blank">
+                <p className="sColor">Download</p>
+              </a>
+            </Link>
           </div>
         </div>
 

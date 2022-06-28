@@ -226,17 +226,23 @@ a {
   transition: border 0.75s;
 }
 
+.svgHome div {
+}
+
 .svgHomeYoutube h2:hover {
   color: #e70f0f;
   border-bottom: #e70f0f solid 1px;
+  filter: drop-shadow(3px 3px 4px #e70f0f);
 }
 .svgHomeLinkedin h2:hover {
   color: #12b9c5;
   border-bottom: #12b9c5 solid 1px;
+  filter: drop-shadow(3px 3px 4px #12b9c5);
 }
 .svgHomeGithub h2:hover {
   color: #c4c4c4ce;
   border-bottom: #c4c4c4ce solid 1px;
+  filter: drop-shadow(3px 3px 4px #c4c4c4ce);
 }
 
 .bakada {
@@ -405,4 +411,8 @@ a {
     font-size: min(1.5rem, 4vw);
     margin: 0.3rem;
   }
+}
+
+.espelho {
+  -webkit-box-reflect: below 5px linear-gradient(transparent 70%, black);
 }

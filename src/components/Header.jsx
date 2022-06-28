@@ -4,7 +4,11 @@ export default function Header() {
   return (
     <header className="cabecalho">
       <div className="headerDivLogo">
-        <h1>{"<VegaDev/>"}</h1>
+        <Link href="/">
+          <a>
+            <h1>{"<VegaDev/>"}</h1>
+          </a>
+        </Link>
       </div>
       <nav>
         <Link href="/">

@@ -5,10 +5,14 @@ export default function ProjetosConteudo() {
         <img className="imgProjetos" src="./img/projetos/sity.jpg" alt="" />{" "}
       </div>
       <div className="divTeste">
-        <img className="imgProjetos" src="./img/projetos/sity.jpg" alt="" />{" "}
+        <img
+          className="imgProjetos"
+          src="./img/projetos/VegaLivros.jpeg"
+          alt=""
+        />{" "}
       </div>
       <div className="divTeste">
-        <img className="imgProjetos" src="./img/projetos/sity.jpg" alt="" />{" "}
+        <img className="imgProjetos" src="./img/projetos/vegaapp.jpeg" alt="" />{" "}
       </div>
       <div className="divTeste">
         <img className="imgProjetos" src="./img/projetos/sity.jpg" alt="" />{" "}
