@@ -70,11 +70,11 @@ export default function SobreConteudo() {
           <h1 className="sColor">Sobre Mim</h1>
           <p>
             Sou desenvolvedor Javascript a alguns anos e desde então tenho
-            corrido atras de desafios, sejám eles back-end, front, ou mobile.
+            corrido atrás de desafios, sejam eles back-end, front, ou mobile.
             <br />
             Trabalho com freelance e isso me obrigou a conhecer todas as nuances
-            de um projeto, regras de negocios e afins.
-            <br /> Minha especialidade é resolver problemas, sejá em que área eu
+            de um projeto, regras de negócios e afins.
+            <br /> Minha especialidade é resolver problemas, seja em que área eu
             atue.
           </p>
         </div>
