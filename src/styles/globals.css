@@ -420,6 +420,11 @@ a {
   }
 }
 @media (max-height: 600px) {
+  .cabecalho {
+    min-height: 28vh;
+    height: 100%;
+  }
+
   .homeConteudo {
     padding: 3rem 0;
   }
