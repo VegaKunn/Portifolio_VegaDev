@@ -428,6 +428,9 @@ a {
   .homeConteudo {
     padding: 3rem 0;
   }
+  .divCentro2 {
+    height: 70vh;
+  }
 }
 
 .espelho {
