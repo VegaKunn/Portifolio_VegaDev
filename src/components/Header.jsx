@@ -26,6 +26,11 @@ export default function Header() {
             <div className="headerLinkDiv">Projetos</div>
           </a>
         </Link>
+        <Link href="/certificados">
+          <a className="headerLink">
+            <div className="headerLinkDiv">Certificados</div>
+          </a>
+        </Link>
       </nav>
     </header>
   );

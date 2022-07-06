@@ -314,6 +314,10 @@ a {
     display: flex;
     justify-content: space-evenly;
   }
+  .headerLink {
+    margin: 0 0.5rem;
+  }
+
   .headerDivLogo {
     height: auto;
     width: 100%;
@@ -346,7 +350,9 @@ a {
   }
 
   .headerLink {
-    font-size: min(1.6rem, 5vw);
+    font-size: min(1.4rem, 5vw);
+
+    margin: 0 0.25rem;
   }
 
   .headerLinkDiv {
