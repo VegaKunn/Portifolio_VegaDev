@@ -65,6 +65,7 @@ a {
   width: 100%;
   min-height: 100vh;
   height: 100%;
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -416,6 +417,11 @@ a {
   .sExperiencias p {
     font-size: min(1.5rem, 4vw);
     margin: 0.3rem;
+  }
+}
+@media (max-height: 600px) {
+  .homeConteudo {
+    padding: 3rem 0;
   }
 }
 
