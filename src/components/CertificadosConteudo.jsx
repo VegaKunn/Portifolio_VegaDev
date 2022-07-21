@@ -15,6 +15,9 @@ export default function CertificadosConteudo() {
           <img src="./img/certificados/nextudemy.jpg" />
         </div>
         <div className="cfCarrossel">
+          <img src="./img/certificados/rocketConectar.jpeg" />
+        </div>
+        <div className="cfCarrossel">
           <img src="./img/certificados/js3.jpeg" />
         </div>
         <div className="cfCarrossel">

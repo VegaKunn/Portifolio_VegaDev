@@ -10,7 +10,7 @@ export default function ContatoConteudo() {
           </div>
         </a>
       </Link>
-      <Link href="https://www.linkedin.com/in/wender-vega-167225174/">
+      <Link href="https://www.linkedin.com/in/vegadev/">
         <a target="_blank" rel="noopener noreferrer">
           <div className="svgHomeLinkedin">
             <h2>{"Linkedin"}</h2>
