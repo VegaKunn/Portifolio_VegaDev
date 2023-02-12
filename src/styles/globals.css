@@ -80,6 +80,7 @@ a {
     5px 5px 10px black;
 }
 .divCentro:hover {
+  padding-top: 60px;
   box-shadow: inset -15px -15px 10px -8px rgba(212, 212, 212, 0.575),
     inset 15px 15px 10px -5px black;
   cursor: pointer;
@@ -119,8 +120,14 @@ a {
 }
 
 .divCentro2:hover {
+  padding-top: 60px;
   box-shadow: inset -15px -15px 10px -8px rgba(212, 212, 212, 0.575),
     inset 15px 15px 10px -5px black;
+}
+
+.divCentro2:hover .svgHome {
+  padding-top: 5px;
+  
 }
 
 .divImagemInfo {

@@ -1,0 +1,68 @@
+.fluxogramaBotao {
+  background-image: linear-gradient(
+    -225deg,
+    #22e1ff 0%,
+    #1d8fe1 48%,
+    #625eb1 100%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 300px;
+  height: 200px;
+  border-radius: 10%;
+  padding: 15px;
+  margin: 2.5rem 4rem;
+}
+.fluxogramaBotao:hover {
+  cursor: pointer;
+  background-image: linear-gradient(180deg, #2af598 0%, #009efd 100%);
+}
+
+.corpoDoFluxograma {
+  background-image: linear-gradient(to right, #434343 0%, black 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  min-height: 100vh;
+  min-width: 100%;
+}
+
+.fluxogramaNav {
+  width: 100%;
+  display: flex;
+
+  flex-wrap: wrap;
+}
+
+.headerFluxo {
+  width: 100%;
+  height: 50px;
+  background-color: #009efd;
+  display: flex;
+  justify-content: center;
+}
+
+.fluxoBarraLateral {
+  width: 10%;
+  height: 100vh;
+  background-color: #121213;
+}
+
+.divisorCorpo {
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+}
+
+select {
+  font-size: 1.5rem;
+  color: black;
+}
+
+select option {
+  font-size: 1.5rem;
+  color: black;
+}
